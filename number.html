@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FICHA SOCIO-ECONOMICA</title>
+
+    <link href="https://ghcdn.rawgit.org/deanblogs/EdyJD/main/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+        <br>
+        <h4 class="text-center">FICHA SOCIO-ECONOMICA DEL POSTULANTE A BECA DE APOYO SOLIDARIO - JAE PUNO</h4>
+
+        <div class="panel panel-edyceleste">
+            <div class="panel-heading">
+                DATOS DE IDENTIFICACIÓN ACADÉMICA
+            </div>
+            <div>
+
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="">Apellidos</label>
+                        <input type="text" name="apellidos" class="form-control" placeholder="Ingrese sus Apellidos">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Nombres</label>
+                        <input type="text" name="nombres" class="form-control" placeholder="Ingrese sus Nombres">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="radio">
+                            <label for="">
+                                <input type="radio" name="sexo"> Masculino
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="radio">
+                                <label for="">
+                                    <input type="radio" name="sexo"> Femenino
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Programa de Estudios</label>
+                            <select name="carrera" id="" class="form-control">
+                                <option value="">Seleccionar...</option>
+                                <option value="1">COMPUTACIÓN E INFORMÁTICA</option>
+                                <option value="2">TURISMO</option>
+                                <option value="3">CONTABILIDAD</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Semestre</label>
+                            <select name="carrera" id="" class="form-control">
+                                <option value="">Seleccionar...</option>
+                                <option value="1">PRIMERO</option>
+                                <option value="2">SEGUNDO</option>
+                                <option value="3">TERCERO</option>
+                                <option value="4">CUARTO</option>
+                                <option value="5">QUINTO</option>
+                                <option value="6">SEXTO</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-edyceleste">
+            <div class="panel-heading">
+                DATOS DEL ESTUDIANTE
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Número de DNI</label>
+                            <input type="number" name="dni" class="form-control" placeholder="Ingrese número de DNI" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="Ingrese Correo ELectrónico" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Fecha Nacimiento</label>
+                            <input type="date" name="fecha_nac" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Número de Celular</label>
+                            <input type="number" name="celular" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Estado Civil</label>
+                            <select name="estado_civil" id="" class="form-control">
+                                <option value="">Seleccionar...</option>
+                                <option value="S">Soltero(a)</option>
+                                <option value="C">Casado</option>
+                                <option value="V">Viudo</option>
+                                <option value="D">Divorciado</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Dirección</label>
+                            <input type="text" name="direccion" class="form-control" placeholder="Dirección Actual">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row text-center">
+            <div class="col-12">
+                <button type="submit" class="btn btn-edy btn-lg">Registrar</button>
+                <button type="submit" class="btn btn-danger btn-lg">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ghcdn.rawgit.org/deanblogs/EdyJD/main/bootstrap.min.js"></script>
+</body>
+</html>
